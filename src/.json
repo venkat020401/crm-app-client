@@ -1,0 +1,57 @@
+ [
+    {
+      "id": "2",
+      "name": "realme 8 (Cyber Silver)",
+      "img": "https://image01.realme.net/general/20210323/1616485180533.png.webp",
+      "price":"18000"
+
+    },
+    {
+      "id": "3",
+      "name": "realme Buds Air 3",
+      "img": "https://image01.realme.net/general/20220321/1647863780293.png.webp",
+      "price":"3000"
+
+    },
+    {
+      "id": "4",
+      "name": "realme Watch 2 (Gold)",
+      "img": "https://image01.realme.net/general/20211201/1638356650962.png.webp",
+      "price":"6000"
+
+    },
+    {
+      "id": "5",
+      "name": "realme Buds 2 (Black)",
+      "img": "https://image01.realme.net/general/20200603/1591155797643.jpg.webp",
+      "price":"2500"
+
+    },
+    {
+      "id": "6",
+      "name": "realme Wireless Mouse",
+      "img": "https://image01.realme.net/general/20211229/1640775018908.jpg.webp",
+      "price":"700"
+
+   },
+    {
+      "id": "7",
+      "name": "realme Smart TV 4K",
+      "img": "https://image01.realme.net/general/20200930/1601463930406.jpg.webp",
+      "price":"40000"
+
+    },
+    {
+      "id": "8",
+      "name": "realme Pad real Gold",
+      "img": "https://image01.realme.net/general/20210907/1630992241023.png.webp",
+      "price":"25000"
+
+    },
+    {
+      "id": "9",
+      "name": "realme 100W Soundbar",
+      "img": "https://image01.realme.net/general/20201009/1602214791898.jpg.webp",
+      "price":"8000"
+
+    }]
