@@ -29,7 +29,7 @@ function PasswordReset() {
     onSubmit: async (values) => {
       try {
         setLoading(true);
-        await axios.post("http://localhost:8000/sendpasswordlink", values);
+        await axios.post("https://crm-app-vm7p.onrender.com/sendpasswordlink", values);
         setMessage(true);
         setEmail("");
         setHide(true);

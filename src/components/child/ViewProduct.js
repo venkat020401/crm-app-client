@@ -15,7 +15,7 @@ function ViewProduct() {
   let getProduct = async () => {
     try {
       const product = await axios.get(
-        `http://localhost:8000/get-product/${params.id}`
+        `https://crm-app-vm7p.onrender.com/get-product/${params.id}`
       );
       setList(product.data);
       setLoading(false);

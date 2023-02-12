@@ -68,7 +68,7 @@ function UpdatePassword() {
       try {
         setLoading(true);
         const data = await axios.put(
-          `http://localhost:8000/password-update/${params.id}`,
+          `https://crm-app-vm7p.onrender.com/password-update/${params.id}`,
           values
         );
         console.log(data);

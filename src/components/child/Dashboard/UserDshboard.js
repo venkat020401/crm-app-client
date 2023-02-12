@@ -18,7 +18,7 @@ function UserDashboard() {
   //get all products
   const getproducts = async () => {
     try {
-      const products = await axios.get("http://localhost:8000/products", {
+      const products = await axios.get("https://crm-app-vm7p.onrender.com/products", {
         headers: {
           authorization: `${window.localStorage.getItem("token")}`,
         },
@@ -32,7 +32,7 @@ function UserDashboard() {
   //add to cart
   const AddtoCart = async (id) => {
     try {
-      const user = await axios.post(`http://localhost:8000/addtocart/${id}`);
+      const user = await axios.post(`https://crm-app-vm7p.onrender.com/addtocart/${id}`);
       get_cart_items();
     } catch (error) {
       console.log(error);
@@ -43,7 +43,7 @@ function UserDashboard() {
   const get_cart_items = async () => {
     try {
       const cartItems = await axios.get(
-        "http://localhost:8000/get_cart_items",
+        "https://crm-app-vm7p.onrender.com/get_cart_items",
         {
           headers: {
             authorization: `${window.localStorage.getItem("token")}`,
@@ -61,7 +61,7 @@ function UserDashboard() {
     try {
       setLoading(true);
       const removeitem = await axios.delete(
-        `http://localhost:8000/remove_cart_item/${id}`,
+        `https://crm-app-vm7p.onrender.com/remove_cart_item/${id}`,
         {
           headers: {
             authorization: `${window.localStorage.getItem("token")}`,

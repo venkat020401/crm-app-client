@@ -36,7 +36,7 @@ function Login() {
       try {
         setErrorMsg(false);
         setLoading(true);
-        const user = await axios.post("http://localhost:8000/login", values);
+        const user = await axios.post("https://crm-app-vm7p.onrender.com/login", values);
         window.localStorage.setItem("token", user.data.token);
         console.log(user.data);
         if (user.data.role === "admin") {
