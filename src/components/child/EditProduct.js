@@ -15,7 +15,7 @@ function EditProduct() {
   let getProductData = async () => {
     try {
       const product = await axios.get(
-        `http://localhost:8000/get-product/${params.id}`
+        `https://crm-app-vm7p.onrender.com/get-product/${params.id}`
       );
       MyFormik.setValues(product.data[0]);
     } catch (error) {
@@ -59,7 +59,7 @@ function EditProduct() {
     onSubmit: async (values) => {
       try {
         setLoading(true);
-        await axios.put(`https://crm-app-vm7p.onrender.com/update-product/${params.id}`, {
+        await axios.put(`http://localhost:8000/update-product/${params.id}`, {
           name: values.name,
           vendor: values.vendor,
           price: values.price,

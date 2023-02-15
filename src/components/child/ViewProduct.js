@@ -76,13 +76,15 @@ function ViewProduct() {
                     </Link>
                   </td>
                 </tr>
-                {/* <img src={isList[0].img} /> */}
               </tbody>
             </table>
           </div>
           <div className="col-lg-2"></div>
           <div className="col-lg-5 col-sm-5 view-image">
-            <img src={isList[0].img} />
+            <img
+              src={isList[0].img}
+              style={{ width: "500px", height: "500px" }}
+            />
           </div>
         </div>
       )}
