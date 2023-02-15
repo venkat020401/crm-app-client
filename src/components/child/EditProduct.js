@@ -59,7 +59,7 @@ function EditProduct() {
     onSubmit: async (values) => {
       try {
         setLoading(true);
-        await axios.put(`http://localhost:8000/update-product/${params.id}`, {
+        await axios.put(`https://crm-app-vm7p.onrender.com/update-product/${params.id}`, {
           name: values.name,
           vendor: values.vendor,
           price: values.price,
